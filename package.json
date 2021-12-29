@@ -1,0 +1,29 @@
+{
+  "name": "auto_youtube_scrobbler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kaladin12/youtube_scrobbler.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kaladin12/youtube_scrobbler/issues"
+  },
+  "homepage": "https://github.com/Kaladin12/youtube_scrobbler#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "googleapis": "^92.0.0",
+    "js-md5": "^0.7.3",
+    "node-fetch": "^3.1.0",
+    "nodemon": "^2.0.15"
+  }
+}
